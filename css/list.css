@@ -1,0 +1,234 @@
+/**!
+ * æ¹–åŒ—çœå…¬å…±èµ„æºäº¤æ˜“ç½‘
+ * author: wuzhou
+ * date:2018-01-26
+ */
+
+.ewb-left-tt {
+    height: 50px;
+    line-height: 50px;
+    background: url("../images/left_tt_bg.jpg") left top no-repeat #187ad0;
+}
+
+.ewb-left-tt>span {
+    display: block;
+    font-size: 20px;
+    color: #fff;
+    padding-left: 85px;
+    background: url("../images/left_ico.png") 40px 13px no-repeat;
+}
+
+.ewb-left-items {
+    padding: 2px 0 6px;
+    background-color: #f7f7f7;
+}
+
+.ewb-left-items>li {
+    vertical-align: top;
+    min-height: 46px;
+}
+
+.ewb-left-items>li>a {
+    display: block;
+    height: 45px;
+    line-height: 45px;
+    margin-left: 15px;
+    padding-left: 45px;
+    font-size: 16px;
+    color: #666;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    border-top: 1px solid #ebebeb;
+    border-left: 4px solid transparent;
+    background: url("../images/column_ico.png") 26px 50% no-repeat;
+}
+
+.ewb-left-items>li:first-child>a {
+    border-top: 0;
+}
+
+.ewb-left-items>li>a.current,
+.ewb-left-items>li>a:hover {
+    color: #187ad0;
+    font-weight: bold;
+    border-left: 4px solid #187ad0;
+    background: url("../images/column_ico_hover.png") 26px 50% no-repeat #fff;
+}
+
+
+/* å³ä¾§ */
+
+.ewb-right-info {
+    min-height: 715px;
+    border: 1px solid #e9e9e9;
+    border-top: 2px solid #187ad0;
+}
+
+.ewb-right-tt {
+    height: 47px;
+    line-height: 47px;
+    font-size: 20px;
+    color: #187ad0;
+    padding-left: 20px;
+    border-bottom: 1px solid #e9e9e9;
+}
+
+.ewb-news-items {
+    padding-top: 12px;
+    margin: 0 20px;
+}
+
+.ewb-news-items>li {
+    position: relative;
+    height: 30px;
+    line-height: 30px;
+    vertical-align: top;
+}
+
+.ewb-news-items>li>a {
+    display: block;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    padding-left: 13px;
+    color: #333;
+    margin-right: 226px;
+    background: url("../images/news_ico.png") left center no-repeat;
+}
+
+.ewb-ndate {
+    position: absolute;
+    right: 0;
+    top: 0;
+    color: #666;
+}
+
+.ewb-news-items>li:hover a {
+    color: #e03f36;
+    background: url("../images/news_ico_hover.png") left center no-repeat;
+}
+
+.ewb-news-items>li:hover .ewb-ndate {
+    color: #e03f36;
+}
+
+
+/* é¡µç  */
+
+.ewb-page {
+    text-align: center;
+    padding-top: 10px;
+}
+
+.ewb-page-items {
+    text-align: center;
+    display: inline-block;
+    *display: inline;
+    zoom: 1;
+}
+
+.ewb-page-li {
+    min-width: 36px;
+    *width: 36px;
+    margin-right: 4px;
+    font-size: 14px;
+    text-align: center;
+    font-family: "Microsoft YaHei";
+    float: left;
+}
+
+.ewb-page-li>a {
+    display: block;
+    color: #555;
+    height: 24px;
+    line-height: 24px;
+    padding: 0 8px;
+    border: 1px solid #dfdfdf;
+}
+
+.ewb-page-li.current>a {
+    border: 0;
+    color: #e03f36;
+}
+
+.ewb-page-li.ewb-page-noborder>span {
+    display: block;
+    height: 24px;
+    line-height: 24px;
+    padding: 0 10px;
+    border: 0;
+    color: #666;
+    font-family: "Simsun";
+}
+
+.ewb-page-num {
+    *width: 60px;
+}
+
+.ewb-page-li.ewb-page-num>span {
+    padding: 0 5px;
+    font-weight: bold;
+}
+
+.ewb-page-input {
+    width: 38px;
+    height: 24px;
+    text-align: center;
+    border: 1px solid #dfdfdf;
+    line-height: 24px;
+    color: #666;
+    outline: none;
+    vertical-align: top;
+    *margin-top: -1px;
+}
+
+.ewb-page-hover {
+    *width: 60px;
+}
+
+.ewb-page-hover>a {
+    font-family: "Simsun";
+}
+
+.ewb-page-go {
+    margin-left: 2px;
+}
+
+.ewb-page-hover:hover>a,
+.ewb-page-go:hover>a {
+    color: #fff;
+    background-color: #999;
+    border-color: #999;
+}
+
+.ewb-page-go>a {
+    font-size: 12px;
+    padding: 0 6px;
+}
+
+.ewb-page-goto {
+    margin-right: 0;
+}
+
+.ewb-page-li.ewb-page-goto>span {
+    padding: 0 6px 0 0;
+    text-align: right;
+}
+
+.ewb-page-inpt {
+    margin-left: -2px;
+}
+
+.ewb-page-li.ewb-page-ellipsis>span {
+    padding: 0 17px 0 16px;
+    font-size: 14px;
+    font-family: "Microsoft YaHei";
+    color: #555;
+}
+
+@media (max-width:1366px) {
+    .ewb-news-items>li>a {
+        margin-right: 140px;
+    }
+}

@@ -1,0 +1,124 @@
+
+/*åŒºå—é“¾*/
+.chain {
+    position: absolute;
+    right: 100px;
+    top: 92px;
+    width: 99px;
+}
+
+.chain-box {
+    width: 99px;
+    height: 99px;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+.chain:hover .chain-box {
+    background: rgba(172, 203, 238, .62);
+    background: linear-gradient(to top, rgba(172, 203, 238, .62), rgba(231, 240, 253, .62));
+    background: -webkit-linear-gradient(bottom, rgba(172, 203, 238, .62), rgba(231, 240, 253, .62));
+    background: -o-linear-gradient(top, rgba(172, 203, 238, .62), rgba(231, 240, 253, .62));
+    background: -moz-linear-gradient(bottom, rgba(172, 203, 238, .62), rgba(231, 240, 253, .62));
+}
+
+.chain-box>img {
+    width: 100%;
+    height: 100%;
+}
+
+.chain:hover .chain-list {
+    display: block;
+}
+
+.chain-list {
+    display: none;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 100px;
+    width: 253px;
+    padding-top: 8px;
+}
+
+.chain-list::before {
+    content: " ";
+    position: absolute;
+    left: 50%;
+    top: 0;
+    transform: translateX(-50%);
+    width: 16px;
+    height: 9px; 
+}
+
+.chain-list-box {
+    height: 100%;
+    padding: 7px 0 12px 0;
+    background-color: #f3f9ff;
+    border: 1px solid #3e63b7;
+}
+
+.chain-tt {
+    margin: 0 10px;
+    height: 33px;
+    line-height: 33px;
+    text-align: center;
+    background-color: #3e63b7;
+}
+
+.chain-tt>h3 {
+    display: inline-block;
+    padding-left: 20px;
+    max-width: 95%;
+    color: #fff;
+    vertical-align: top;
+   /* background: url("../images/subPage/new_yes.png") no-repeat left center;*/
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+	font-size: 100% !important;
+	line-height: 36px !important;
+}
+
+.chain-intro {
+    padding: 0 16px;
+}
+
+.chain-intro-box {
+    padding-top: 8px;
+    line-height: 19px;
+    word-wrap: break-word;
+}
+
+.chain-label {
+    color: #666;
+}
+
+.chain-con {
+    color: #3e63b7;
+}
+
+@media (max-width: 979px) {
+    .chain {
+        right: 60px;
+    }
+}
+
+@media (max-width: 767px) {
+    .chain {
+        left: 50%;
+        right: auto;
+        transform: translateX(-50%);
+        top: 150px;
+    }
+    .ewb-say-box {
+        margin-bottom: 100px;
+    }
+}
+
+@media (max-width: 480px) {
+    .do-end {
+        width: 100%;
+        background-size: 100% 100%;
+    }
+}

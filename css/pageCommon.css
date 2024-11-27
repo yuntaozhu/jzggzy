@@ -1,0 +1,88 @@
+/**!
+ * æ¹–åŒ—çœå…¬å…±èµ„æºäº¤æ˜“ç½‘
+ * author: wuzhou
+ * date:2018-01-26
+ */
+
+body {
+    background: url("../images/page_bg.jpg") center top no-repeat #eee;
+}
+
+.ewb-page-logo {
+    padding-left: 60px;
+    padding-top: 20px;
+    height: 122px;
+}
+
+.ewb-page-nav {
+    position: relative;
+    z-index: 50;
+}
+
+.ewb-page-arr {
+    position: absolute;
+    top: 0;
+}
+
+.ewb-arr-one {
+    left: 0;
+}
+
+.ewb-arr-two {
+    right: 0;
+}
+
+.ewb-pnav-items {
+    margin: 0 41px;
+    padding: 0 50px;
+    background-color: #187ad0;
+}
+
+.ewb-pnav-items>li {
+    float: left;
+    width: 16.2%;
+}
+
+.ewb-pnav-items>li>a {
+    display: block;
+    text-align: center;
+    line-height: 42px;
+    font-size: 19px;
+    color: #fff;
+}
+
+.ewb-pnav-items>li>a.cur,
+.ewb-pnav-items>li>a:hover {
+    color: #fff600;
+}
+
+.ewb-page-main {
+    position: relative;
+    margin-top: -14px;
+    padding-top: 14px;
+    min-height: 784px;
+    background-color: #fff;
+}
+
+
+/* é¢åŒ…å±‘ */
+
+.ewb-route {
+    padding-left: 39px;
+    height: 51px;
+    line-height: 51px;
+    background: url("../images/route_ico.png") 15px 50% no-repeat;
+	text-align: left;
+}
+
+.ewb-route>a {
+    color: #333;
+}
+
+.ewb-route-first {
+    font-weight: bold;
+}
+
+.ewb-route-last {
+    color: #f00;
+}
